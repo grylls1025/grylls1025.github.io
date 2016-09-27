@@ -1,0 +1,266 @@
+
+#imform{
+    width:auto;
+    height:85%;
+    /*background-color: #22C3AA;*/
+    overflow:hidden;
+    color:red;
+
+}
+/*头像*/
+#face0{
+    width: 60%;
+    height:85%;
+    margin:1000px auto 0;
+    overflow: hidden;
+
+}
+/*#face0:hover{*/
+/*background:rgba(0,0,0,.3);*/
+/*}*/
+#biv{
+
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    margin:20px auto 0 ;
+    position: relative;
+    transition:box-shadow .5s;
+    box-shadow: 0 0 5px 5px #acd;
+}
+#biv:hover{
+    box-shadow: 0 0 10px 10px #acd;
+    /*transition:box-shadow 1s;*/
+}
+#face{
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    background-image: url(../images/face.jpg);
+    background-size:cover ;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+#face1{
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    background-image: url(../images/pb.jpg);
+    background-size:cover ;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+#face0 h3{
+    text-align:center;
+    color:#fff;
+    margin:100px auto;
+    padding-bottom:100px;
+    border-bottom:2px solid #acd;
+    width: 0;
+    height: 30px;
+    font-size: 3rem;
+
+}
+#face0 h5{
+    text-align:center;
+    color:#fff;
+    margin-bottom:50px;
+    /*opacity: 0;*/
+    display: none;
+    font-size: 2rem;
+
+}
+#face0 h5 a{
+    color:#fff;
+    text-decoration:underline;
+}
+#face0 h5 a:link{
+    color:#fff;
+}
+#face0 h5 a:visited {
+    color: #fff;
+}
+#face0 h5 a:hover{
+    color:#fff;
+    font-size:110%;
+}
+#face0 h5 a:active{
+    color:#AAA;
+}
+
+
+/**
+ * Created by PhpStorm.
+ * User: 禹轩1025
+ * Date: 2016/8/28
+ * Time: 18:42
+ */
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    /*font-family: "Microsoft YaHei";*/
+    /*color: #EFEFEF;*/
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+body{
+    background:url(../images/p2.jpg) ;
+    background-color: #acd;
+    background-size: cover;
+
+}
+body,html{
+    overflow: hidden;
+    height: 100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+#head{
+    /*height:80px;*/
+    height:10%;
+    /*background-color: #22C3AA;*/
+    font-size:2rem;
+    overflow: hidden;
+    /*border-bottom: 1px solid #acd;*/
+    background:rgba(0,0,0,.3);
+
+
+}
+#head #nav{
+    /*width:1700px;*/
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #22C3AA;*/
+    list-style-type: none;
+    float:right;
+    /*padding:20px 0 0 0;*/
+    font-weight:bold;
+
+}
+#head #nav li{
+    float:left;
+    width: auto;
+    margin-right:40px;
+
+}
+#head #nav li.fz:hover{
+    transform:rotateY(360deg);
+    -webkit-transform:rotateY(360deg); /* Safari and Chrome */
+    -moz-transform:rotateY(360deg); /* Firefox */
+    transition:transform 1s;
+}
+
+#head #nav li #yonghu {
+    text-decoration: underline;
+    font-size: 82%;
+
+
+}
+#head #nav li #yonghu1{
+    text-decoration: none;
+    font-size: 82%;
+
+
+}
+#head #nav li #bizhi{
+    text-decoration: underline;
+    font-size: 82%;
+    margin-right: 0;
+    cursor:pointer;
+
+}
+
+#head #nav li #bizhi:active{
+    color:blue;
+}
+
+#head #smallface{
+    width: 60px;
+    height:60px;
+    float:left;
+    margin-left: 50px;
+    border-radius:20%;
+    background:url(../images/smallface.jpg);
+    background-size:cover;
+
+}
+#head p{
+    float:left;
+    height: auto;
+    margin-left: 5px;
+    font-weight: bold;
+    text-indent: 20px;
+    border-left:2px solid #EFEFEF;
+}
+#head p a{
+
+    text-decoration:none;
+}
+
+#head #bizhi{
+    position:absolute;
+    left;:0;
+    top: 200px;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border:1px solid #acd;
+    border-left: none;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.3);
+    opacity: 0;
+    color:#fff;
+    text-align: center;
+    cursor: pointer;
+
+}
+#head #bizhi:hover{
+    opacity: 1;
+}
+
+#foot{
+    /*height:60px;*/
+    height:8%;
+    width: 100%;
+    /*background-color: #acd;*/
+    background:rgba(0,0,0,.3);
+    overflow: hidden;
+    position:fixed;
+    left:0;
+    bottom:0;
+}
+
+#foot h5{
+    width: 100%;
+    height:20%;
+    line-height:20px;
+    margin:0 auto;
+    /*background-color: #22C3AA;*/
+    text-align: center;
+    color: #EFEFEF;
+    padding:5px 0 ;
+    /*border-top:2px so#fd #acd;*/
+
+}
+#foot h5 #h52{
+    height: 25%;
+}
+
+
+
+
+
+
